@@ -1,11 +1,11 @@
 import ArquivoDeEpisodios from './arquivo-de-episodios';
 import Lancamentos from './lancamentos-com-componentes';
-import App from './index';
+import Tela1 from './tela-1';
 
-export default function TudoJunto() {
+export default function Home() {
 	return (
 		<main>
-			<App />
+			<Tela1 />
 			<ArquivoDeEpisodios />
 			<Lancamentos />
 		</main>

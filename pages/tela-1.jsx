@@ -3,7 +3,7 @@ import logo from '../src/logo.svg';
 import DisplayTrack from '../src/components/display-track';
 import pipoca from '../public/imagens/pipocaimg.png';
 
-function App() {
+function Tela1() {
 	return (
 		<div
 			style={{
@@ -266,4 +266,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Tela1;

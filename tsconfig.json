@@ -13,6 +13,13 @@
 		"isolatedModules": true,
 		"jsx": "preserve"
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/lancamentos.jsx"],
+	"include": [
+		"next-env.d.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"pages/lancamentos.jsx",
+		"pages/tudo-junto.jsx",
+		"pages/teste/@Left/page.ksx"
+	],
 	"exclude": ["node_modules"]
 }
