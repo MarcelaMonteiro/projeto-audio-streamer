@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import pipocaimgg from '../public/imagens/pipocaimagem.png';
+import pipocaimgg from '../../../public/imagens/pipocaimagem.png';
 
 function Card(props) {
 	const { title, text, data, duracao, span } = props;

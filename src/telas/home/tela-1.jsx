@@ -1,7 +1,6 @@
 import Image from 'next/image';
-import logo from '../src/logo.svg';
-import DisplayTrack from '../src/components/display-track';
-import pipoca from '../public/imagens/pipocaimg.png';
+import DisplayTrack from '../../components/display-track';
+import pipoca from '../../../public/imagens/pipocaimg.png';
 
 function Tela1() {
 	return (
@@ -23,7 +22,7 @@ function Tela1() {
 						style={{
 							display: 'flex',
 							flexDirection: 'row',
-							gap: '3rem',
+							gap: '4rem',
 							paddingTop: '1rem',
 							fontSize: '1.4rem',
 							paddingTop: '2rem',
@@ -49,6 +48,7 @@ function Tela1() {
 					display: 'grid',
 					gridTemplateColumns: '1fr 1fr 1fr',
 					paddingTop: '2rem',
+					gap: '2rem',
 				}}
 			>
 				<div>
@@ -90,8 +90,6 @@ function Tela1() {
 						<Image
 							src={pipoca}
 							alt="Picture of the author"
-							width={300}
-							height={500}
 							style={{
 								display: 'flex',
 								width: '22rem',
